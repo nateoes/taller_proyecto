@@ -1,0 +1,6 @@
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaEntidad\obj\Debug\CapaEntidad.pdb

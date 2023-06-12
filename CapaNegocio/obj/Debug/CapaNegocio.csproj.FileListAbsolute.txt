@@ -1,0 +1,11 @@
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\LENOVO\Desktop\para talller xd\proyecto_final_Taller\Proyecto_final_taller\CapaNegocio\obj\Debug\CapaNegocio.pdb

@@ -1,0 +1,183 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1 class="mt-4">Reportes xd </h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Dashboard</li>
+</ol>
+
+
+<!--cartas -->
+<div class="row">
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-success text-white mb-4">
+            <div class="card-body">
+                <div class="row">
+
+                    <div class="col-sm-9">
+
+                        <h6>Cantidad clientes </h6>
+                        <h6 id="totalcliente">0</h6>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <i class="fas fa-users fa-2x"></i>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-warning text-white mb-4">
+            <div class="card-body">
+                <div class="row">
+
+                    <div class="col-sm-9">
+
+                        <h6>Cantidad Ventas </h6>
+                        <h6 id="totalventa">0</h6>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <i class="fas fa-shopping-basket fa-2x"></i>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-secondary text-white mb-4">
+            <div class="card-body">
+                <div class="row">
+
+                    <div class="col-sm-9">
+
+                        <h6>Cantidad Productos </h6>
+                        <h6 id="totalproducto">0</h6>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <i class="fas fa-boxes fa-2x"></i>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-tags me-1"></i>
+        Hosytrial de venta
+    </div>
+
+    <div class="card-body">
+        <form>
+
+            <div class="row align-items-end">
+
+                <div class="col-sm-2 ">
+                    <div class="mb-2">
+                        <label class="form-label"> Fecha inicio :</label>
+                        <input class="form-control" type="text" id="txtfechainicio" name="fechainicio" />
+                    </div>
+                </div>
+
+                <div class="col-sm-2 ">
+                    <div class="mb-2">
+                        <label class="form-label"> Fecha Fin :</label>
+                        <input class="form-control" type="text" id="txtfechafin" name="fechafin" />
+                    </div>
+                </div>
+
+                <div class="col-sm-2 ">
+                    <div class="mb-2">
+                        <label class="form-label"> Id trnasacion :</label>
+                        <input class="form-control" type="text" id="txtidtransaccion" name="idtransaccion" />
+                    </div>
+                </div>
+
+                <div class="col-sm-2 ">
+                    <div class="d-grid mb-2">
+                        <button class="btn btn-primary" id="btnbuscar" type="button"><i class="fas fa-search-dollar"></i> Buscar</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-2 ">
+                    <div class="d-grid mb-2">
+                        <button class="btn btn-success" type="submit"><i class="fas fa-file-excel"></i> Exportar</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </form>
+        <hr />
+
+        <div class="row">
+
+            <div class="col-sm-12">
+
+                <table id="tabla" class="display cell-border" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Fecaventa </th>
+                            <th> Cleiente</th>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad </th>
+                            <th>Total </th>
+                            <th>Id Transaccion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--con el ajax -->
+                    </tbody>
+
+                </table>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+@section scripts{
+    <script>
+
+        jQuery.ajax({
+            url: '@Url.Action("VistaDashBoard", "Home")',
+            type: "Get",            
+            datatype: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+
+                var objeto = data.resultado;
+                $("#totalcliente").text(objeto.TotalCliente)
+                $("#totalventa").text(objeto.TotalVenta)
+                $("#totalproducto").text(objeto.TotalProducto)
+            }            
+        });
+
+
+
+    </script>
+
+
+}
